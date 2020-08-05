@@ -30,7 +30,7 @@ const app = express();
  * set the static path
  */
 
-app.use(express.static('public'));
+app.use(express.static('src/public'));
 
 /**
  * body parser
